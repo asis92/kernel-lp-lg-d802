@@ -664,8 +664,6 @@ static struct attribute *default_attrs[] = {
 #ifdef CONFIG_CPU_VOLTAGE_TABLE
 	&UV_mV_table.attr,
 #endif
-	&policy_min_freq.attr,
-	&policy_max_freq.attr,
 	NULL
 };
 
